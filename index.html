@@ -120,8 +120,8 @@
         background-image: url("34dbfa50-deeb-4c40-98c5-ae98efc5d49d.jpg");
         background-size: cover;
         background-position: center;
-        filter: none;
         transform: scale(1.02);
+        filter: saturate(1.08) contrast(1.04) brightness(1.02);
       }
       .hero::after {
         content: "";
@@ -391,6 +391,11 @@
           gap: 14px;
         }
       }
+
+      .moodImg img,
+.galleryItem img{
+  filter: saturate(1.07) contrast(1.03) brightness(1.01);
+}
     </style>
   </head>
 
@@ -614,6 +619,7 @@
     </main>
   </body>
 </html>
+
 
 
 
